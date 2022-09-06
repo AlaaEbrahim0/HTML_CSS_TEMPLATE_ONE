@@ -190,11 +190,10 @@ html {
 /* START LANDING SECTION */
 
 .landing {
-    background-image: url(/imgs/jo-jo-RcZw8HE5ihU-unsplash.jpg);
+    background-image: url(/imgs/chris-lutke-VMJGmTuRVFs-unsplash.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
-    background-blend-mode: d;
 }
 
 .landing .intro-text {
