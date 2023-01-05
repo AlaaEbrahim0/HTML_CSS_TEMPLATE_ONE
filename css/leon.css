@@ -8,6 +8,11 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+::selection
+{
+    color: black
+    background: pink;
+}
 
 :root {
     --main-color: #10cab7;
@@ -25,7 +30,6 @@ html {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 /* Small Screen */
@@ -112,14 +116,11 @@ html {
 
 }
 
-.header .links:hover .icon span:nth-child(2) {
-    width: 100%;
-}
+
 
 .header .links .icon span {
     margin-bottom: 5px;
-    height: 2px;
-
+    height: 2px;    
     background-color: #24484f;
 }
 
@@ -130,7 +131,10 @@ html {
 .header .links .icon span:nth-child(2) {
     width: 60%;
     transition: .3s;
+}
 
+.header .links:hover .icon span:nth-child(2) {
+    width: 100%;
 }
 
 .header .links .icon span:last-child {
